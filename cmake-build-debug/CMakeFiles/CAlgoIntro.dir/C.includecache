@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/longest_common_subsequence.h
+
+/Users/hans/Coding/CAlgoIntro/main.c
+stdio.h
+-
+longest_common_subsequence/longest_common_subsequence.h
+/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/longest_common_subsequence.h
+median_of_two_arrays/median_of_two_arrays.h
+/Users/hans/Coding/CAlgoIntro/median_of_two_arrays/median_of_two_arrays.h
+
 /Users/hans/Coding/CAlgoIntro/median_of_two_arrays/median_of_two_arrays.c
 median_of_two_arrays.h
 /Users/hans/Coding/CAlgoIntro/median_of_two_arrays/median_of_two_arrays.h

@@ -13,10 +13,10 @@ int main(void)
 {
     printf("I can eat glass!\n");
 
-    int  a[] = {1, 3, 10, 11, 12, 20, 21};
-    int  b[] = {2, 7, 8, 9, 70, 76, 79};
+    int  a[] = {1, 3, 10, 12, 14, 20, 21};
+    int  b[] = {2, 7, 8, 11, 70, 76, 82};
 
-    printf("%lf", med2array(a, b, 7));
+    printf("%lf", med2array(a, b, 7, 7));
 
     return 0;
 }
