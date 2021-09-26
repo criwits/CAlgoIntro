@@ -9,4 +9,8 @@ CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/longest_common_subsequence.
  ../longest_common_subsequence/longest_common_subsequence.c
 CMakeFiles/CAlgoIntro.dir/main.c.o: \
  ../longest_common_subsequence/longest_common_subsequence.h \
- ../main.c
+ ../main.c \
+ ../median_of_two_arrays/median_of_two_arrays.h
+CMakeFiles/CAlgoIntro.dir/median_of_two_arrays/median_of_two_arrays.c.o: \
+ ../median_of_two_arrays/median_of_two_arrays.c \
+ ../median_of_two_arrays/median_of_two_arrays.h

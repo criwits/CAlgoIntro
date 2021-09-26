@@ -95,6 +95,8 @@ int lcsubseq(const char *str_a, const char *str_b, char *lcs)
     while (subseq.height != 0) {
         lcs[ansptr++] = stackPop(&subseq);
     }
+    lcs[ansptr] = '\0';
+    stackClear(&subseq);
 
     // Free `c` and `b`
     for (int i = 0; i <= m; i++) {

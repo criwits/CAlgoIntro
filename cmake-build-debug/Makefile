@@ -201,6 +201,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CAlgoIntro.dir/build.make CMakeFiles/CAlgoIntro.dir/main.c.s
 .PHONY : main.c.s
 
+median_of_two_arrays/median_of_two_arrays.o: median_of_two_arrays/median_of_two_arrays.c.o
+.PHONY : median_of_two_arrays/median_of_two_arrays.o
+
+# target to build an object file
+median_of_two_arrays/median_of_two_arrays.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CAlgoIntro.dir/build.make CMakeFiles/CAlgoIntro.dir/median_of_two_arrays/median_of_two_arrays.c.o
+.PHONY : median_of_two_arrays/median_of_two_arrays.c.o
+
+median_of_two_arrays/median_of_two_arrays.i: median_of_two_arrays/median_of_two_arrays.c.i
+.PHONY : median_of_two_arrays/median_of_two_arrays.i
+
+# target to preprocess a source file
+median_of_two_arrays/median_of_two_arrays.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CAlgoIntro.dir/build.make CMakeFiles/CAlgoIntro.dir/median_of_two_arrays/median_of_two_arrays.c.i
+.PHONY : median_of_two_arrays/median_of_two_arrays.c.i
+
+median_of_two_arrays/median_of_two_arrays.s: median_of_two_arrays/median_of_two_arrays.c.s
+.PHONY : median_of_two_arrays/median_of_two_arrays.s
+
+# target to generate assembly for a file
+median_of_two_arrays/median_of_two_arrays.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CAlgoIntro.dir/build.make CMakeFiles/CAlgoIntro.dir/median_of_two_arrays/median_of_two_arrays.c.s
+.PHONY : median_of_two_arrays/median_of_two_arrays.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... median_of_two_arrays/median_of_two_arrays.o"
+	@echo "... median_of_two_arrays/median_of_two_arrays.i"
+	@echo "... median_of_two_arrays/median_of_two_arrays.s"
 .PHONY : help
 
 

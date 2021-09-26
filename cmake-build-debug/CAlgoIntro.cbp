@@ -95,6 +95,12 @@
 		<Unit filename="/Users/hans/Coding/CAlgoIntro/main.c">
 			<Option target="CAlgoIntro"/>
 		</Unit>
+		<Unit filename="/Users/hans/Coding/CAlgoIntro/median_of_two_arrays/median_of_two_arrays.c">
+			<Option target="CAlgoIntro"/>
+		</Unit>
+		<Unit filename="/Users/hans/Coding/CAlgoIntro/median_of_two_arrays/median_of_two_arrays.h">
+			<Option target="CAlgoIntro"/>
+		</Unit>
 		<Unit filename="/Users/hans/Coding/CAlgoIntro/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

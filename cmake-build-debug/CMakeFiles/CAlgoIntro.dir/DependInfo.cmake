@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/lib/stack.c" "/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/lib/stack.c.o"
   "/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/longest_common_subsequence.c" "/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/longest_common_subsequence.c.o"
   "/Users/hans/Coding/CAlgoIntro/main.c" "/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/main.c.o"
+  "/Users/hans/Coding/CAlgoIntro/median_of_two_arrays/median_of_two_arrays.c" "/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/median_of_two_arrays/median_of_two_arrays.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
