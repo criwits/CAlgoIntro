@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CAlgoIntro"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hans/Coding/CAlgoIntro/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hans/Coding/CAlgoIntro/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hans/Coding/CAlgoIntro/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CAlgoIntro">
+				<Option output="/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CAlgoIntro" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hans/Coding/CAlgoIntro/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 CAlgoIntro"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CAlgoIntro/fast">
+				<Option output="/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CAlgoIntro" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hans/Coding/CAlgoIntro/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 CAlgoIntro/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/lib/stack.c">
+			<Option target="CAlgoIntro"/>
+		</Unit>
+		<Unit filename="/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/lib/stack.h">
+			<Option target="CAlgoIntro"/>
+		</Unit>
+		<Unit filename="/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/longest_common_subsequence.c">
+			<Option target="CAlgoIntro"/>
+		</Unit>
+		<Unit filename="/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/longest_common_subsequence.h">
+			<Option target="CAlgoIntro"/>
+		</Unit>
+		<Unit filename="/Users/hans/Coding/CAlgoIntro/main.c">
+			<Option target="CAlgoIntro"/>
+		</Unit>
+		<Unit filename="/Users/hans/Coding/CAlgoIntro/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
