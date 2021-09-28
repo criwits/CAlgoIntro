@@ -4,104 +4,112 @@
 	<Project>
 		<Option title="CAlgoIntro"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/hans/Coding/CAlgoIntro/cmake-build-debug"/>
+				<Option working_dir="D:/GitHub/CAlgoIntro/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/hans/Coding/CAlgoIntro/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/hans/Coding/CAlgoIntro/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CAlgoIntro">
-				<Option output="/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CAlgoIntro" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hans/Coding/CAlgoIntro/cmake-build-debug"/>
+				<Option output="D:/GitHub/CAlgoIntro/cmake-build-debug/CAlgoIntro.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub/CAlgoIntro/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 CAlgoIntro"/>
-					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 CAlgoIntro"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CAlgoIntro/fast">
-				<Option output="/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CAlgoIntro" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/hans/Coding/CAlgoIntro/cmake-build-debug"/>
+				<Option output="D:/GitHub/CAlgoIntro/cmake-build-debug/CAlgoIntro.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub/CAlgoIntro/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 CAlgoIntro/fast"/>
-					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/CAlgoIntro/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 CAlgoIntro/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/GitHub/CAlgoIntro/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/GitHub/CAlgoIntro/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\CAlgoIntro\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/lib/stack.c">
+		<Unit filename="D:/GitHub/CAlgoIntro/0-1_knapsack_problem/0-1_knapsack_problem.c">
 			<Option target="CAlgoIntro"/>
 		</Unit>
-		<Unit filename="/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/lib/stack.h">
+		<Unit filename="D:/GitHub/CAlgoIntro/0-1_knapsack_problem/0-1_knapsack_problem.h">
 			<Option target="CAlgoIntro"/>
 		</Unit>
-		<Unit filename="/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/longest_common_subsequence.c">
+		<Unit filename="D:/GitHub/CAlgoIntro/longest_common_subsequence/lib/stack.c">
 			<Option target="CAlgoIntro"/>
 		</Unit>
-		<Unit filename="/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/longest_common_subsequence.h">
+		<Unit filename="D:/GitHub/CAlgoIntro/longest_common_subsequence/lib/stack.h">
 			<Option target="CAlgoIntro"/>
 		</Unit>
-		<Unit filename="/Users/hans/Coding/CAlgoIntro/main.c">
+		<Unit filename="D:/GitHub/CAlgoIntro/longest_common_subsequence/longest_common_subsequence.c">
 			<Option target="CAlgoIntro"/>
 		</Unit>
-		<Unit filename="/Users/hans/Coding/CAlgoIntro/median_of_two_arrays/median_of_two_arrays.c">
+		<Unit filename="D:/GitHub/CAlgoIntro/longest_common_subsequence/longest_common_subsequence.h">
 			<Option target="CAlgoIntro"/>
 		</Unit>
-		<Unit filename="/Users/hans/Coding/CAlgoIntro/median_of_two_arrays/median_of_two_arrays.h">
+		<Unit filename="D:/GitHub/CAlgoIntro/main.c">
 			<Option target="CAlgoIntro"/>
 		</Unit>
-		<Unit filename="/Users/hans/Coding/CAlgoIntro/CMakeLists.txt">
+		<Unit filename="D:/GitHub/CAlgoIntro/median_of_two_arrays/median_of_two_arrays.c">
+			<Option target="CAlgoIntro"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CAlgoIntro/median_of_two_arrays/median_of_two_arrays.h">
+			<Option target="CAlgoIntro"/>
+		</Unit>
+		<Unit filename="D:/GitHub/CAlgoIntro/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

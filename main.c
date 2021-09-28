@@ -8,15 +8,16 @@
 #include <stdio.h>
 #include "longest_common_subsequence/longest_common_subsequence.h"
 #include "median_of_two_arrays/median_of_two_arrays.h"
+#include "0-1_knapsack_problem/0-1_knapsack_problem.h"
 
 int main(void)
 {
     printf("I can eat glass!\n");
 
-    int  a[] = {1, 3, 10, 12, 14, 20, 21};
-    int  b[] = {2, 7, 8, 11, 70, 76, 82};
+    int v[] = { 7, 3, 6, 10, 8 };
+    int w[] = { 5, 2, 2, 6, 4 };
 
-    printf("%lf", med2array(a, b, 7, 7));
+    printf("%d", knapsack(5, v, w, 10));
 
     return 0;
 }

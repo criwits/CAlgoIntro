@@ -8,12 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/lib/stack.c" "/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/lib/stack.c.o"
-  "/Users/hans/Coding/CAlgoIntro/longest_common_subsequence/longest_common_subsequence.c" "/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/longest_common_subsequence.c.o"
-  "/Users/hans/Coding/CAlgoIntro/main.c" "/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/main.c.o"
-  "/Users/hans/Coding/CAlgoIntro/median_of_two_arrays/median_of_two_arrays.c" "/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/median_of_two_arrays/median_of_two_arrays.c.o"
+  "D:/GitHub/CAlgoIntro/0-1_knapsack_problem/0-1_knapsack_problem.c" "D:/GitHub/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/0-1_knapsack_problem/0-1_knapsack_problem.c.obj"
+  "D:/GitHub/CAlgoIntro/longest_common_subsequence/lib/stack.c" "D:/GitHub/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/lib/stack.c.obj"
+  "D:/GitHub/CAlgoIntro/longest_common_subsequence/longest_common_subsequence.c" "D:/GitHub/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/longest_common_subsequence.c.obj"
+  "D:/GitHub/CAlgoIntro/main.c" "D:/GitHub/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/main.c.obj"
+  "D:/GitHub/CAlgoIntro/median_of_two_arrays/median_of_two_arrays.c" "D:/GitHub/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir/median_of_two_arrays/median_of_two_arrays.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

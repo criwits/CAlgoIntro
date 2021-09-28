@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/CAlgoIntro.dir/main.c.o CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/longest_common_subsequence.c.o CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/lib/stack.c.o CMakeFiles/CAlgoIntro.dir/median_of_two_arrays/median_of_two_arrays.c.o -o CAlgoIntro 

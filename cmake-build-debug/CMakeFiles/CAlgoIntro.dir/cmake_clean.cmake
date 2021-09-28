@@ -1,10 +1,13 @@
 file(REMOVE_RECURSE
-  "CAlgoIntro"
+  "CAlgoIntro.exe"
+  "CAlgoIntro.exe.manifest"
+  "CAlgoIntro.lib"
   "CAlgoIntro.pdb"
-  "CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/lib/stack.c.o"
-  "CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/longest_common_subsequence.c.o"
-  "CMakeFiles/CAlgoIntro.dir/main.c.o"
-  "CMakeFiles/CAlgoIntro.dir/median_of_two_arrays/median_of_two_arrays.c.o"
+  "CMakeFiles/CAlgoIntro.dir/0-1_knapsack_problem/0-1_knapsack_problem.c.obj"
+  "CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/lib/stack.c.obj"
+  "CMakeFiles/CAlgoIntro.dir/longest_common_subsequence/longest_common_subsequence.c.obj"
+  "CMakeFiles/CAlgoIntro.dir/main.c.obj"
+  "CMakeFiles/CAlgoIntro.dir/median_of_two_arrays/median_of_two_arrays.c.obj"
 )
 
 # Per-language clean rules from dependency scanning.

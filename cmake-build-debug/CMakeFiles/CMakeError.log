@@ -1,0 +1,14 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/GitHub/CAlgoIntro/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_073fc\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_073fc.dir\build.make /nologo -L                  CMakeFiles\cmTC_073fc.dir\build
+Building C object CMakeFiles/cmTC_073fc.dir/CMakeCCompilerABI.c.obj
+	"D:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_073fc.dir\CMakeCCompilerABI.c.obj.d --working-dir=D:\GitHub\CAlgoIntro\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx86\x86\cl.exe" @C:\Users\Wanqi\AppData\Local\Temp\nm8BA6.tmp
+NMAKE : fatal error U1077: “"D:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"”: 返回代码“0xc0000409”
+Stop.
+NMAKE : fatal error U1077: “"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"”: 返回代码“0x2”
+Stop.
+
+
+
+

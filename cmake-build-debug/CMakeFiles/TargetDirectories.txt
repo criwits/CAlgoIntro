@@ -1,3 +1,3 @@
-/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/hans/Coding/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir
+D:/GitHub/CAlgoIntro/cmake-build-debug/CMakeFiles/CAlgoIntro.dir
+D:/GitHub/CAlgoIntro/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GitHub/CAlgoIntro/cmake-build-debug/CMakeFiles/rebuild_cache.dir
